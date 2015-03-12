@@ -64,8 +64,10 @@
     <Compile Include="Assets\AI\Actions\ChooseWanderPosition.cs" />
     <Compile Include="Assets\AI\Actions\GetStandOnPoint.cs" />
     <Compile Include="Assets\AI\Actions\WanderLocation.cs" />
+    <Compile Include="Assets\Scripts\BaaIndicator.cs" />
     <Compile Include="Assets\Scripts\CameraControl.cs" />
     <Compile Include="Assets\Scripts\DogControl.cs" />
+    <Compile Include="Assets\Scripts\ResponseIndicator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
