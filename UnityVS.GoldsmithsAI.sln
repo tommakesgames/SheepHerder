@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.GoldsmithsAI.CSharp", "UnityVS.GoldsmithsAI.CSharp.csproj", "{87DE5D0C-8402-C182-4742-A24EFE015D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.GoldsmithsAI.CSharp.Editor", "UnityVS.GoldsmithsAI.CSharp.Editor.csproj", "{80D74F13-F4A7-EE8F-032F-79A354FA1CD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87DE5D0C-8402-C182-4742-A24EFE015D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DE5D0C-8402-C182-4742-A24EFE015D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DE5D0C-8402-C182-4742-A24EFE015D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DE5D0C-8402-C182-4742-A24EFE015D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D74F13-F4A7-EE8F-032F-79A354FA1CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D74F13-F4A7-EE8F-032F-79A354FA1CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D74F13-F4A7-EE8F-032F-79A354FA1CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D74F13-F4A7-EE8F-032F-79A354FA1CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
