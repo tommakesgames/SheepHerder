@@ -4,6 +4,7 @@ using System.Collections;
 public class BaaIndicator : MonoBehaviour {
 
     public GameObject sheep;
+    public GameObject responder;
 
 
 	// Use this for initialization
@@ -15,11 +16,14 @@ public class BaaIndicator : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (sheep.audio.isPlaying)
+        if (sheep.audio.isPlaying && !responder.audio.isPlaying)
             sheep.renderer.material.color = Color.black;
 
-        if (!sheep.audio.isPlaying)
+        if (!sheep.audio.isPlaying && !responder.audio.isPlaying)
             sheep.renderer.material.color = Color.white;
+
+        if (responder.audio.isPlaying)
+            sheep.renderer.material.color = Color.red;
 	
 	}
 }
